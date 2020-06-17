@@ -1,0 +1,80 @@
+.parallax_section {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 100% auto;
+  position: relative; }
+
+.parallax_image_first {
+  background-image: url(../img/cinema.jpg); }
+
+.parallax_image_second {
+  background-image: url(../img/cinema.jpg); }
+
+.top_banner {
+  background-image: url(../img/roll.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  idth: 100%;
+  min-height: 95vh; }
+
+.top_banner h1 {
+  margin: 0 0 0 5%;
+  text-align: center;
+  font-size: 5em;
+  letter-spacing: 0.2em; }
+
+.bg_container {
+  background-color: #c1ae8c;
+  padding: 50px 0 50px 0;
+  display: flex;
+  flex-direction: row; }
+
+.box_left:hover {
+  transform: scale(1.05); }
+
+.box_right:hover {
+  transform: scale(1.05); }
+
+.box_left {
+  background-color: #e9eaf4;
+  width: 30%;
+  border-radius: 15px;
+  margin: 10px 20px 10px 50px;
+  padding: 20px 20px 20px 20px;
+  transition: all 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8); }
+
+.nav-link {
+  backgroundcolor: #e9eaf4;
+  color: #000000; }
+
+.box_right {
+  background-color: #e9eaf4;
+  width: 50%;
+  border-radius: 15px;
+  margin: 10px 50px 10px 100px;
+  padding: 20px 20px 20px 20px;
+  transition: all 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8); }
+
+.box_right img {
+  object-fit: cover;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  height: 270px;
+  border-radius: 15px; }
+
+/*-----FOOTER----- */
+.footer {
+  background-color: #000000; }
+
+.nav-item a {
+  color: #FFFFFF; }
+
+/*# sourceMappingURL=styles.css.map */
