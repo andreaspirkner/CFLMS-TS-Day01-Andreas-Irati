@@ -7,4 +7,5 @@ for(let i of numbers){
 		let multiplication = (multiply(i,j))
 		document.getElementById("main").innerHTML += `<div> ${j} x ${i} = ${multiplication} </div>`
 	}
+	document.getElementById("main").innerHTML += `<hr>`
 }
