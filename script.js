@@ -7,4 +7,5 @@ for (var _i = 0, numbers_1 = numbers; _i < numbers_1.length; _i++) {
         var multiplication = (multiply(i, j));
         document.getElementById("main").innerHTML += "<div> " + j + " x " + i + " = " + multiplication + " </div>";
     }
+    document.getElementById("main").innerHTML += "<hr>";
 }
